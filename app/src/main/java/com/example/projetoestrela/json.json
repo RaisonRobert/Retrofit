@@ -1,0 +1,43 @@
+
+{
+  "status": true,
+  "msg": "Consulta realizada com sucesso",
+  "dados": [
+    {
+      "DS_PERGUNTA": "Atendimento Médico:",
+      "DS_OBSERVACAO": "PESQUISA_EMAIL",
+      "CD_CODIGO": "A1",
+      "NR_SEQUENCIA": 1,
+      "TIPO": "NOTA"
+    },
+    {
+      "DS_PERGUNTA": "Atendimento da Enfermagem:",
+      "DS_OBSERVACAO": "PESQUISA_EMAIL",
+      "CD_CODIGO": "B1",
+      "NR_SEQUENCIA": 20,
+      "TIPO": "NOTA"
+    },
+    {
+      "DS_PERGUNTA": "Atendimento da Recepção:",
+      "DS_OBSERVACAO": "PESQUISA_EMAIL",
+      "CD_CODIGO": "C1",
+      "NR_SEQUENCIA": 30,
+      "TIPO": "NOTA"
+    },
+    {
+      "DS_PERGUNTA": "Sua satisfação com a Samel:",
+      "DS_OBSERVACAO": "GERAL",
+      "CD_CODIGO": "G1",
+      "NR_SEQUENCIA": 40,
+      "TIPO": "NOTA"
+    },
+    {
+      "DS_PERGUNTA": "Caso queira, compartilhe conosco sua opinião:",
+      "DS_OBSERVACAO": "OPNIÃO",
+      "CD_CODIGO": "E1",
+      "NR_SEQUENCIA": 100,
+      "TIPO": "DESCRICAO"
+    }
+  ],
+  "qtdPerguntas": 5
+}

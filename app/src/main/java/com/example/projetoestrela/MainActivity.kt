@@ -5,7 +5,6 @@ import android.app.AlertDialog
 import android.os.Bundle
 import android.view.View
 import android.widget.*
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputEditText
 import kotlinx.android.synthetic.main.layout_dialog.view.*
@@ -16,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     val api by lazy {
         AppRetrofit()
     }
-    lateinit var fechadialog: AlertDialog // fecha a caixa de dialogo anterior
+    lateinit var fechadialog: android.app.AlertDialog // fecha a caixa de dialogo anterior
     lateinit var view: View //pegar texto da opiniao
     var i: Int = 0 // armazena o contador da vez de
     var k: Int = 0 // armazena o valor de onde o usuario parou o voto
@@ -57,8 +56,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     @SuppressLint("SetTextI18n")
-    fun abrirDialog(): AlertDialog {
-        val alertDialogPerguntas = AlertDialog.Builder(this)
+    fun abrirDialog(): android.app.AlertDialog {
+        val alertDialogPerguntas = android.app.AlertDialog.Builder(this)
         val inflater = layoutInflater
         view = inflater.inflate(R.layout.layout_dialog, null)
         alertDialogPerguntas.setView(view)

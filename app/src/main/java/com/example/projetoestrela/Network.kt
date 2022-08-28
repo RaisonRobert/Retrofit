@@ -17,7 +17,6 @@ object Network {
                 callBackRetorno.invoke(response.body()!!)
 
             }
-
             override fun onFailure(call: Call<ResponseApi>, t: Throwable) {
                 Log.i("nao funciona",t.message.toString())
             }
